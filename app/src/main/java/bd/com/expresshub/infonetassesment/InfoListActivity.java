@@ -22,6 +22,8 @@ public class InfoListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info_list);
 
         recyclerView = findViewById(R.id.recyclerId);
+
+        getData();
     }
 
     private void getData() {

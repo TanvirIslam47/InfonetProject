@@ -74,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
                 if (!validateName() | !validateCountry() | !validateCity() | !validateDob()) {
                     return;
                 }
-                Toast.makeText(MainActivity.this, "valid", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "valid", Toast.LENGTH_SHORT).show();
+                saveData();
             }
         });
 
@@ -117,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
         act_city.setText("");
         dobET.setText("");
         Toast.makeText(this, "Data Successfully Saved", Toast.LENGTH_SHORT).show();
-
 
     }
 
