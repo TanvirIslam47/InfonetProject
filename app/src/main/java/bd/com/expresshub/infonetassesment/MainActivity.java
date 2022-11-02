@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (!validateName() | !validateCountry() | !validateCity() | !validateDob()) {
+                if (!validateName() | !validateDob()) {
                     return;
                 }
 //                Toast.makeText(MainActivity.this, "valid", Toast.LENGTH_SHORT).show();
